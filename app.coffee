@@ -6,8 +6,17 @@ module.exports =
 
   extensions: [
     js_pipeline(files: 'assets/js/*.coffee'),
-    css_pipeline(files: 'assets/css/*.styl')
+    css_pipeline(files: 'assets/css/*.scss')
   ]
+
+  scss:
+    includePaths: [
+      './assets/css/vendor'
+      './node_modules/'
+    ]
+    outputStyle: 'nested'
+    sourceMap: true
+    sourceMapEmbed: true
 
   'coffee-script':
     sourcemap: true
