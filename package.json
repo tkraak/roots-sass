@@ -9,6 +9,7 @@
     "js-pipeline": "0.2.x",
     "jstransformer-marked": "1.x",
     "marked": "0.3.x",
-    "node-sass": "^3.8.0"
+    "node-sass": "^3.8.0",
+    "postcss": "^5.0.21"
   }
 }
