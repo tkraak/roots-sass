@@ -1,3 +1,5 @@
+autoprefixer = require 'autoprefixer'
+postcss      = require 'postcss'
 js_pipeline  = require 'js-pipeline'
 css_pipeline = require 'css-pipeline'
 
@@ -17,6 +19,11 @@ module.exports =
     outputStyle: 'nested'
     sourceMap: true
     sourceMapEmbed: true
+
+  postcss:
+    use: [
+      autoprefixer
+    ]
 
   'coffee-script':
     sourcemap: true
