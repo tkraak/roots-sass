@@ -1,5 +1,4 @@
 autoprefixer = require 'autoprefixer'
-postcss      = require 'postcss'
 js_pipeline  = require 'js-pipeline'
 css_pipeline = require 'css-pipeline'
 
