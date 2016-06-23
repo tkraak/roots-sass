@@ -1,6 +1,8 @@
-# roots sass
+# Roots with SASS and Autoprefixer
 
-Experimenting with roots and sass.
+The static site compiler [roots](http://roots.cx) is configured for [Stylus](http://stylus-lang.com/) out-of-the-box, but roots is more than flexible enough to handle any number of pre and post CSS processors you may want to use.
+
+This repository is an attempt to document how you can use roots with [SASS](http://sass-lang.com/) with the popular [autoprefixer](https://github.com/postcss/autoprefixer) [PostCSS](https://github.com/postcss/postcss) plugin thrown into the mix.
 
 ### Setup
 
@@ -8,10 +10,5 @@ Experimenting with roots and sass.
 - clone this repo down and `cd` into the folder
 - run `npm install`
 - run `roots watch`
-- ???
-- get money
 
-### Deploying
-
-- If you just want to compile the production build, run `roots compile -e production` and it will build to public.
-- To deploy your site with a single command, run `roots deploy -to XXX` with `XXX` being whichever [ship](https://github.com/carrot/ship#usage) deployer you want to use.
+### More documentaton soon ...
